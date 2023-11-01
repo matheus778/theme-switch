@@ -28,7 +28,7 @@ theme.registerTheme('tema-escuro', {
 
 Para trocar de tema, deve-se usar o metodo useTheme passando o nome do tema pra qual deseja mudar
 ```javascript
-    theme.useTheme('tema-1');
+    theme.useTheme('tema-escuro');
 ```
 
 Se desejar voltar para o tema padrão é só chamar o metodo useTheme novamente sem passar nenhum parametro
