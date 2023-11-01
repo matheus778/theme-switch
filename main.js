@@ -148,19 +148,3 @@ class SwitchTheme extends RecordThemeToLocalStorage {
     this.useTheme(this.recordedTheme)
   }
 }
-
-const theme = new SwitchTheme({
-  '--primary': '#07334a',
-  '--text-color': '#f0faff',
-  '--border-color': '#7bdcfe'
-});
-theme.registerTheme('tema-claro', {
-  '--primary': '#b9eafe',
-  '--text-color': '#07334a',
-  '--border-color': '#7bdcfe'
-})
-theme.registerTheme('tema2', {
-  '--primary': 'pink',
-  '--text-color': 'black',
-  '--border-color': 'green'
-})
