@@ -1,6 +1,6 @@
 class AnimationTransition {
   #elementsContainer = document.querySelectorAll(`
-  div, header, section, footer, nav, aside
+  div, header, section, footer, nav, aside, body
   `)
 
   #elementsText = document.querySelectorAll(`
@@ -9,11 +9,11 @@ class AnimationTransition {
 
   constructor() {
     this.#elementsContainer.forEach(html => {
-      html.style.transition = 'background ease-in 500ms'
+      html.style.transition = 'background ease-in 300ms'
     });
 
     this.#elementsText.forEach(html => {
-      html.style.transition = 'color ease-in 500ms'
+      html.style.transition = 'color ease-in 300ms'
     })
   }
 }
