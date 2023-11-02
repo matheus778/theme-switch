@@ -1,0 +1,18 @@
+{
+  "name": "theme-switch",
+  "version": "1.0.0",
+  "description": "ultilitario para troca de temas em websites",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matheus778/theme-switch"
+  },
+  "keywords": [
+    "switch-theme", "theme", "frontend"
+  ],
+  "author": "Matheus Vinicius",
+  "license": "ISC"
+}
