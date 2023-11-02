@@ -1,5 +1,11 @@
 # theme-switch
 ## Tutorial de uso
+
+instale em seu projeto:
+```html
+<script src="https://unpkg.com/mth_theme-switch@1.0.0/main.js"></script>
+```
+
 voce precisa ter suas variveis CSS inseridas em cada elemento que voce deseja realizar a troca de tema
 ```css
 .section {
