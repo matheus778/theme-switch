@@ -1,5 +1,13 @@
 # theme-switch
 ## Tutorial de uso
+voce precisa ter suas variveis CSS inseridas em cada elemento que voce deseja realizar a troca de tema
+```css
+.section {
+  background: var(--primary);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+```
 
 para ultilizar basta criar uma nova instancia de SwitchTheme, passando no construtor o tema padrão da seguinte maneira
 
